@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 """
 OM-310 Power Limiter
-Original author: tmr
+Original author: tmrealive
 Requirements: pymodbus
 """
 """
-<plugin key="OM310" name="OM-310 Novatek-Elektro Power Limiter" version="0.0.1" author="tmr">
+<plugin key="OM310" name="OM-310 Power Limiter (Novatek-Electro)" version="0.0.1" author="tmrealive">
     <params>
         <param field="Address" label="IP Address" width="160px" required="true" default="127.0.0.1" />
         <param field="Port" label="Port" width="40px" required="true" default="502" />
