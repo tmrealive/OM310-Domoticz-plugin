@@ -16,15 +16,22 @@ wget -O /opt/domoticz/plugins/OM310-Domoticz-plugin/plugin.py https://raw.github
 
 chown -R domoticz:domoticz /opt/domoticz
 
+
 nano /etc/config/domoticz
+
 change option disabled to 0
+
 change option userdata to /opt/domoticz
 
+
 nano /etc/config/mbusd
+
 change option enabled to 1
 
+
 /etc/init.d/mbusd start
+
 /etc/init.d/domoticz start
 
-open domoticz site
-add OM-310 device
+
+open domoticz site and add OM-310 device
