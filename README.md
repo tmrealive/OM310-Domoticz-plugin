@@ -1,6 +1,8 @@
 # OM310-Domoticz-plugin
 Domoticz plugin for OM-310 Power Limiter (Novatek-Elektro) over Modbus TCP
 
+![OM310-Domoticz-plugin](https://raw.githubusercontent.com/tmrealive/OM310-Domoticz-plugin/refs/heads/main/plugin.png)
+
 # Installation (openwrt, pl2303 usb modbus adapter)
 1. Install dependencies
 ```
@@ -32,4 +34,7 @@ chown -R domoticz:domoticz /opt/domoticz
 /etc/init.d/domoticz start
 ```
 
+# Configuration
 Open domoticz site and add OM-310 device
+
+![OM310-Domoticz-plugin setup](https://raw.githubusercontent.com/tmrealive/OM310-Domoticz-plugin/refs/heads/main/setup.png)
