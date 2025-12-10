@@ -38,3 +38,6 @@ chown -R domoticz:domoticz /opt/domoticz
 Open domoticz site and add OM-310 device
 
 ![OM310-Domoticz-plugin setup](https://raw.githubusercontent.com/tmrealive/OM310-Domoticz-plugin/refs/heads/main/setup.png)
+
+# Documentation
+[Power limiter OM-310 Users manual](OM-310_EN.pdf)
